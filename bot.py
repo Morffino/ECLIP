@@ -7,7 +7,7 @@ import os
 import sys
 
 # ============================================
-# ✅ ВСЕ ДАННЫЕ УЖЕ ВСТАВЛЕНЫ
+# ВАШИ ДАННЫЕ (уже вставлены)
 # ============================================
 TOKEN = "MTUyOTk5OTQyNjE5MjQwODgyNg.GUJ0G6.HbD4hRbwYgOF-Kp9ieQ-4QJVAhAACeVvhU_jfg"
 GUILD_ID = 1528337219612311633
@@ -382,6 +382,13 @@ async def on_error(event, *args, **kwargs):
 
 if __name__ == "__main__":
     print("🚀 Запуск бота...")
+    print(f"📌 Сервер ID: {GUILD_ID}")
+    print(f"📌 Категория ID: {CATEGORY_ID}")
+    print(f"📌 Роль персонала ID: {STAFF_ROLE_ID}")
+    print(f"📌 Канал логов ID: {LOG_CHANNEL_ID}")
+    print(f"⏰ Время жизни: {TICKET_LIFETIME_HOURS} часов")
+    print("=" * 60)
+    
     try:
         bot.run(TOKEN)
     except discord.LoginFailure:
