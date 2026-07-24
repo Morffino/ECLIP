@@ -9,7 +9,7 @@ import sys
 # ============================================
 # ВАШИ ДАННЫЕ (уже вставлены)
 # ============================================
-TOKEN = "MTUyOTk5OTQyNjE5MjQwODgyNg.GMWeLq.upo2id8307y_njVjrEYEUX9wYsMRlQSzosJPBM"
+TOKEN = "MTUzMDAwMTkxNzMxNTM4NzQ2Mw.G2hmPV.EgzMmNf4rQw0iYtR45gh173SLSIrRZyE292jBI"
 GUILD_ID = 1528337219612311633
 CATEGORY_ID = 1529240936356380672
 STAFF_ROLE_ID = 1529251785678655589
